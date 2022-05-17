@@ -16,9 +16,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Build a Custom Docker Image
 
-Run 'docker build -t ngcode . -f Dockerfile'
+Run `docker build -t ngcode . -f Dockerfile`
 
 ## Check the image using docker run command 
 
-Run 'docker images' command
-Run 'docker run -d -p 80:80 -- name ngcode ngcode' command
+* Run `docker images` command.
+* Run `docker run -d -p 80:80 -- name ngcode ngcode` command.
